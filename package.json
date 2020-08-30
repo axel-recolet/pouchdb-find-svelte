@@ -30,6 +30,6 @@
     "pouchdb-fetch": "7.2.2",
     "pouchdb-md5": "7.2.2",
     "pouchdb-selector-core": "7.2.2",
-    "pouchdb-utils": "7.2.2"
+    "pouchdb-utils": "git+https://github.com/axel-recolet/pouchdb-utils.git"
   }
 }
