@@ -1,0 +1,35 @@
+{
+  "name": "pouchdb-find-svelte",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axel-recolet/pouchdb-find.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axel-recolet/pouchdb-find/issues"
+  },
+  "homepage": "https://github.com/axel-recolet/pouchdb-find#readme",
+  "devDependencies": {},
+  "browser": {
+    "./lib/index.js": "./lib/index-browser.js",
+    "./lib/index.es.js": "./lib/index-browser.es.js"
+  },
+  "jsnext:main": "./lib/index.es.js",
+  "main": "lib/index.js",
+  "module": "./lib/index.es.js",
+  "dependencies": {
+    "pouchdb-abstract-mapreduce": "7.2.2",
+    "pouchdb-collate": "7.2.2",
+    "pouchdb-errors": "7.2.2",
+    "pouchdb-fetch": "7.2.2",
+    "pouchdb-md5": "7.2.2",
+    "pouchdb-selector-core": "7.2.2",
+    "pouchdb-utils": "7.2.2"
+  }
+}
